@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Navbar from './components/Navbar';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -60,3 +60,14 @@ export default function Home() {
     </div>
   )
 }
+
+// pages/index.js
+
+// first import that function
+//import generateRSS from "../lib/generateRssFeed";
+
+//export async function getStaticProps() {
+  // ........
+  //await generateRSS(); // calling to generate the feed
+  // ........
+//}
